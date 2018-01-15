@@ -1,54 +1,106 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css?family=Monoton');
-.carousel-inner img {
-      width: 100%;
-      height: 100%;
+
+ nav{
+    padding-left: 10%;
+    padding-right: 10%;
+   }
+.navbar-toggle{
+    font-size:12px;
+    right:0 ;
+    padding:13px;
+    text-transform:uppercase;
+    border:0;
+    background-color:#fed136 !important;
+    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
+    }
+.nav-item{
+    font-size:1.3em;
+                font-weight:400;
+                padding:.75em 0;
+                letter-spacing:1px;
+              
+                font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
+}
+.nav-item .nav-link:hover{
+    color:#fed136 !important;
+    background-color: #fff !important;
+}
+.navbar-collapse{
+    overflow-y: hidden !important;
+}
+
+  .nav-item .nav-link{
+  	color: #999999;
   }
-  nav{
-  	font-family: 'Bree Serif', serif;
-  }
- .navbar-custom .navbar-nav .nav-link {
-    color: rgba(255,255,255,1);
+
+
+
+
+.welcome{
+	color: #cc0033 !important;
+	font-size: 32px !important;
 }
-.carousel-control-prev-icon,.carousel-control-next-icon{
-  /*background-color: #DDD !important;*/
-  background-color: green;
-  width: 30px;
-  height: 30px;
+.ellcrafts{
+	color: #000 !important;
+	font-size: 32px !important;
 }
-.writeup1{
-	font-family: 'Rokkitt', serif;
+
+.navbar-brand img{
+	width: 175px;
+	height: 75px;
+	padding-left: 25%;
 }
-.h1{
-	font-family: 'Monoton', cursive;
+
+.well{
+    
+	height: 400px;
 }
-.writing{
-	margin-top: 15px;
+.box1{
+background-color: #cc0033;
+ color: #fff;
+
+ padding-top: 25%;
 }
-hr{
-	height: 10px;
-	border: 0;
-	box-shadow: 0 15px 12px -12px red inset;
+.box1 .header1{
+	font-size: 32px;
 }
-.footer{
-padding-top: 15px;
+.box1 .subtitle1{
+	font-size: 16px;
+}
+.box2{
+background-color: #999999;
+ color: #cc0033;
+  padding-top: 25%;
+}
+.box2 .header1{
+	font-size: 32px;
+}
+.box2 .subtitle1{
+	font-size: 16px;
+}
+
+.box1:hover , .box2:hover{
+box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.3);     
+}
+.jumbotron{
+	background-color: #fff !important;
+}
+footer{
+	background-color: #303949;
+	margin-top: 15%;
 color: #fff;
 }
-.title{
-	font-size:35px;
-	font-family: 'Bree Serif', serif;
-	color: #4b525e;
-}
-.footer ul{
+
+footer ul{
 	list-style: none;
-    
 }
-a{
-	text-decoration: none !important;
-	color: #fff;
+.footer-bottom {
+	background-color: #cc0033;
+	padding-top: 2px;
+    margin-right: 0 !important;
+    color: #DDD;
 }
-
-.footer-copyright{
-	background-color: #001f54;
-
+.serv,.fol{
+	color: #cc0033;
 }
