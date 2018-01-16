@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
-@import url('https://fonts.googleapis.com/css?family=Monoton');
+/*@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Monoton');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
  nav{
     padding-left: 10%;
@@ -12,15 +13,16 @@
     text-transform:uppercase;
     border:0;
     background-color:#fed136 !important;
-    font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
+    font-family: 'Roboto', sans-serif;
+    /*font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif*/
     }
 .nav-item{
     font-size:1.3em;
                 font-weight:400;
                 padding:.75em 0;
                 letter-spacing:1px;
-              
-                font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
+              font-family: 'Roboto', sans-serif;
+                /*font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif*/
 }
 .nav-item .nav-link:hover{
     color:#fed136 !important;
@@ -34,15 +36,19 @@
   	color: #999999;
   }
 
-
+body{
+    font-family: 'Roboto', sans-serif ;
+}
 
 
 .welcome{
 	color: #cc0033 !important;
 	font-size: 32px !important;
+    font-family: 'Roboto', sans-serif;
 }
 .ellcrafts{
 	color: #000 !important;
+    font-family: 'Roboto', sans-serif;
 	font-size: 32px !important;
 }
 
@@ -53,31 +59,36 @@
 }
 
 .well{
-    
+    margin-top: 0px;
+    margin-bottom: 0px;
 	height: 400px;
 }
 .box1{
 background-color: #cc0033;
  color: #fff;
 
- padding-top: 25%;
+ padding-top: 5%;
 }
 .box1 .header1{
 	font-size: 32px;
+    font-family: 'Roboto', sans-serif;
 }
 .box1 .subtitle1{
 	font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 .box2{
-background-color: #999999;
+background-color: #a3a3a5;
  color: #cc0033;
-  padding-top: 25%;
+  padding-top: 5%;
 }
 .box2 .header1{
 	font-size: 32px;
+    font-family: 'Roboto', sans-serif;
 }
 .box2 .subtitle1{
 	font-size: 16px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .box1:hover , .box2:hover{
@@ -86,8 +97,9 @@ box-shadow: 10px 15px 20px rgba(0, 0, 0, 0.3);
 .jumbotron{
 	background-color: #fff !important;
 }
+
 footer{
-	background-color: #303949;
+	background-color: #999999;
 	margin-top: 15%;
 color: #fff;
 }
